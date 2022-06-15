@@ -7,16 +7,47 @@
         
         <div class="card-section">
             <div class="payment-card">
-                <form frm="form">
+                <div class="section-1">
+                    <p class="main-text">Payment Details</p>
+                    <form frm="formCard">
+                        <div class="card-name">
+                            <label for="name">Name on the card</label>
+                            
+                            <input type="text" name="name" placeholder="Ajayi OluwaSekemi">
+                        </div>
+                        <div class="card-details">
+                            <input type="number" placeholder="Card Number">
+                            <input type="number" placeholder="Expiry">
+                            <input type="number" placeholder="CVV">
+                        </div>
 
+                    </form>
+                </div>
+                <div class="section-2">
+                    <p class="main-text">Billing Address</p>
+                    <form frm="formAddr"> 
+                        <div class="addr">
+                            <input type="text" placeholder="Street address">
+                            <input type="text" placeholder="City">
+                        </div>
+                        <div class="addr">
+                            <select type="text" placeholder="state/Province"></select>
+                            <input type="number" placeholder="Zip Code">
+                        </div>
 
-                </form>
+                    </form>
+                </div>
+                
             </div>
             <div class="price-card"></div>
         </div>
         <div class="cta-section">
-            <div class="prev-btn"></div>
-            
+            <div class="prev-btn">
+                <a routerLink="/" routerLinkActive="active"> Previous Step</a> 
+            </div>
+            <div class="pay-btn">
+                <p>pay $400</p>
+            </div>
         </div>
     </div>
 
