@@ -1,8 +1,41 @@
 <div class="container">
     <div class="content">
-        <p>Company details</p>
-        <form action="">
-            
-        </form>
+        <h1 class="main-text">Company details</h1>
+        <div class="card-section">
+            <div class="payment-card">
+                <div class="section-1">
+                    
+                    <form [formGroup]="formData">
+                        <div class="card-name">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="AdeBola & Sons" formControlName="name">
+                        </div>
+                    </form>
+                </div>
+                <div class="section-2">
+                    <p class="main-text">Business Address</p>
+                    <form [formGroup]="formData"> 
+                        <div class="addr">
+                            <input type="text" placeholder="Street address" formControlName="streetAddr">
+                            <input type="text" placeholder="City" formControlName="city">
+                        </div>
+                        <div class="addr">
+                            <select type="text" formControlName="state" >
+                                <option value="" class="option">State/province</option>
+                                <option value="Ondo state">Ondo state</option>
+                                <option value="Oyo State">Oyo state</option>
+                            </select>
+                            <input type="tel" placeholder="Zip Code" maxlength="6" formControlName="zipCode">
+                        </div>
+
+                    </form>
+                </div> 
+            </div>
+        </div>
+        <div class="cta-section">
+            <div class="save-btn" (click)="addData()">
+                <p>save</p>
+            </div>
+        </div>
     </div>
 </div>

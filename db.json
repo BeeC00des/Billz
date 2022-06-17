@@ -1,5 +1,14 @@
 {
-  "UserData": [],
+  "UserData": [
+    {
+      "name": "Adeyemi and sons",
+      "streetAddr": "surulere",
+      "city": "Oyo",
+      "state": "Oyo State",
+      "zipCode": "234234",
+      "id": 1
+    }
+  ],
   "PaymentData": [
     {
       "cardName": "Ajayi",

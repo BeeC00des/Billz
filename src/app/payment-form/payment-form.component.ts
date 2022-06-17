@@ -12,9 +12,6 @@ export class PaymentFormComponent implements OnInit {
 
   faCard= faAddressCard;
   formData !: FormGroup;
-  states=["Ondo state", "Oyo state"]
-  
-  // data : any = [];
 
   constructor(
     private formbuilder: FormBuilder,
