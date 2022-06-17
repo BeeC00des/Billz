@@ -1,0 +1,26 @@
+{
+  "UserData": [],
+  "PaymentData": [
+    {
+      "cardName": "Ajayi",
+      "cardNos": "74878719087349",
+      "expiry": "878237",
+      "cvv": "647",
+      "streetAddr": "Orelope",
+      "city": "Akure",
+      "zipCode": "787289",
+      "id": 1
+    },
+    {
+      "cardName": "Ajayi bolarinwa",
+      "cardNos": "8423985902858792",
+      "expiry": "984370",
+      "cvv": "878",
+      "streetAddr": "Orelope",
+      "city": "Akure",
+      "state": "Ondo state",
+      "zipCode": "765872",
+      "id": 2
+    }
+  ]
+}

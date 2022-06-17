@@ -4,7 +4,7 @@
     background-color:#F4F6F7;
     margin-left:20%;
     .content{
-        padding: 45px 50px 10px;
+        padding: 35px 50px 10px;
         .header{
             width:50%;
             .main-text{
@@ -12,77 +12,120 @@
                 font-weight: bold;
                 color:#313A42;
                 margin:0px !important;
-                padding-bottom: 5px;
+                padding-bottom: 7px;
                 
             }
             .sub-text{
-                font-size: 18px;
+                font-size: 16px;
                 font-weight: 400;
                 color:#ABB0B3;
+
             }
         }
         .card-section{
             display: flex;
             .payment-card{
-                width: 50%;
+                width: 45%;
                 height: 370px;
                 border-radius: 7px;
                 margin:32px 0px;
-                padding: 15px;
+                padding: 25px;
                 background-color: #fff;
                 box-shadow:  0 2px 1px 0px rgba($color: #000000, $alpha: 0.125);
 
                 .section-1{
-                    height: 175px;
+                    height: 180px;
                     .main-text{
                         font-size: 15px;
                         font-weight: bold;
                         color:#000;
                         padding-left: 5px;
+                        padding-bottom:18px;
+                        letter-spacing: 0.35px;
                     }
                     .card-name{
+                        label{
+                            font-size: 13px;
+                            font-weight: 500;
+                            color:#ABACCA;
+                            padding-left: 5px;
+                            padding-bottom: 5px;
+                        }
                         input {
                             width:95%;
                             margin:5px;
-                            height:30px;
-                            border-width: 0 0 2px;
-                            background-color: none;
+                            height:25px;
+                            border-width: 0 0 1px;
+                            border-color:#ABACCA;
+                            margin-bottom: 20px !important;
                             outline: 0;
                         }
                         input:focus {
                             border-color: blue;
+                            border-width: 0 0 2px;
                         }
-                        input:placeholder-shown{
+                        ::placeholder{
                             color:#000;
-                            font-weight: 400;
-                            font-size: 15px;
+                            font-weight:600;
+                            font-size: 14.5px;
                         }
                     }
                     .card-details{
                         display: flex;
                         justify-content: space-between; 
-                        label{
-                            font-size: 12px;
-                            color: #000;
-                            font-weight: 500;
-                            margin: 5px;
-                        }
-                        input {
-                                width:26%;
+                        .input-wrapper{
+                            position: relative;
+                            width:50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            input {
+                                width:90%;
                                 margin:5px;
-                                height: 30px;
-                                padding: 10px 0px;
-                                border-width: 0 0 2px;
-                                background-color: none;
+                                height: 25px;
+                                border-width: 0 0 1px;
+                                border-color:#ABACCA;
                                 outline: 0;
+                                padding: 0px 0px 2px 30px;
+                            }
+                            .faCard{
+                                position:absolute;
+                                top:4px;
+                                left:6px;
+                                font-size: 17px;
+                                color:#ABACCA;
+                            }
+                           
+                            input:focus {
+                                border-color: blue;
+                            }
+                            ::placeholder {
+                                font-weight: 500;
+                                color:#ABACCA;
+                                font-size: 13px;
+                                }
+                            }
                         }
-                        input:focus {
-                            border-color: blue;
-                          }
-                        input:placeholder-shown {
-                            color: #9EA2B4;
-                            font-size: 15px;
-                        }
+                        .input-box{
+                            width:50%;
+                        
+                            input {
+                                width:43%;
+                                margin:5px;
+                                height: 25px;
+                                border-width: 0 0 1px;
+                                border-color:#ABACCA;
+                                outline: 0;
+                            }
+                            input:focus {
+                                border-color: blue;
+                            }
+                            ::placeholder {
+                                font-weight: 500;
+                                color:#ABACCA;
+                                font-size: 13px;
+                                }
+                            }   
                     }
                 }
                 .section-2{
@@ -91,38 +134,98 @@
                         font-size: 15px;
                         font-weight: bold;
                         color:#000;
-
+                        padding-bottom:18px;
+                        letter-spacing: 0.35px;
                     }
                     .addr{
                         display: flex;
                         justify-content: space-between; 
-                        input {
-                            width:50%;
+                        input, select {
+                            width:45%;
                             margin:5px;
-                            height: 30px;
-                            padding: 10px 0px;
-                            border-width: 0 0 2px;
+                            height: 25px;
+                            border-width: 0 0 1px;
+                            border-color:#ABACCA;
+                            margin-bottom: 20px !important;
                             background-color: none;
                             outline: 0;
-                    }
-                    input:focus {
-                        border-color: blue;
-                      }
-                    input:placeholder-shown {
-                        color: #9EA2B4;
-                        font-size: 15px;
-                    } 
+                        }
+                        input:focus, select:focus{
+                            border-color: blue;
+                        }
+                        ::placeholder{
+                            font-weight: 500;
+                            color:#ABACCA;
+                            font-size: 13px;
+                            }
+                            
+                        select{
+                            margin-top: 8px !important;
+                            font-weight: 500 !important;
+                            color:#ABACCA !important;
+                            font-size: 13px !important; 
+                        }     
                     }
                 }
             }
     
             .price-card{
-                width: 30%;
-                height: 270px;
+                width: 25%;
+                height: 265px;
                 border-radius: 7px;
                 margin: 32px 50px;
                 background-color: #5031C9;
+                padding:20px 30px;
                 box-shadow:  0 2px 1px 0px rgba($color: #000000, $alpha: 0.125);
+
+                span{
+                    color:#fff;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .main-text{
+                    color:#FBCC4C;
+                    font-size: 35px;
+                    font-weight: bold;
+                    margin-bottom: 15px !important;
+                    margin-top: 0px !important;
+                    span{
+                        color: #fff; 
+                        font-size: 23px;
+                        font-weight: 500;
+                    }
+                }
+                sup{
+                    color: #fff; 
+                    font-size: 25px;
+                    font-weight: 500; 
+                }
+                .text-box{
+                    margin-bottom: 25px;
+                }
+                .sub-text{
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #fff;
+                    padding-bottom: 3px;
+                }
+                .link{
+                    color:#FBCC4C;
+                    font-size: 15px;
+                    font-weight: 500; 
+                    text-decoration: none;  
+                }
+                .box{
+                    border-radius: 5px;
+                    margin:10px 0px;
+                    padding: 10px;
+                    background-color:rgba(0, 0, 0, 0.26);
+                    p{
+                        color:#fff;
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                }
             }
         }  
         
@@ -158,8 +261,8 @@
                 align-items: center;
                 justify-content: center;
                 background-color: #492CC5;
-                cursor:progress;
+                // cursor:progress;
             }
         }
-    }
 }
+

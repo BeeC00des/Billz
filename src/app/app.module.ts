@@ -5,6 +5,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 import { DetailsFormComponent } from './details-form/details-form.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { PaymentFormComponent } from './payment-form/payment-form.component';
@@ -17,6 +20,9 @@ import { PaymentFormComponent } from './payment-form/payment-form.component';
     PaymentFormComponent
   ],
   imports: [
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule
