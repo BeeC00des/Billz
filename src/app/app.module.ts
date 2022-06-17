@@ -11,13 +11,21 @@ import { HttpClientModule } from '@angular/common/http';
 import { DetailsFormComponent } from './details-form/details-form.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { PaymentFormComponent } from './payment-form/payment-form.component';
+import { DiscountComponent } from './discount/discount.component';
+import { ReferralComponent } from './referral/referral.component';
+import { SupportComponent } from './support/support.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DetailsFormComponent,
     SideBarComponent,
-    PaymentFormComponent
+    PaymentFormComponent,
+    DiscountComponent,
+    ReferralComponent,
+    SupportComponent,
+    MainComponent
   ],
   imports: [
     ReactiveFormsModule,

@@ -39,7 +39,7 @@ export class DetailsFormComponent implements OnInit {
           this.formData.reset();
         },
         error:()=>{
-          alert("user data sending error")
+          alert("User data sending error")
         }
       })
     }

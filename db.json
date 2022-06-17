@@ -7,6 +7,14 @@
       "state": "Oyo State",
       "zipCode": "234234",
       "id": 1
+    },
+    {
+      "name": "Mathews & son",
+      "streetAddr": "Olotu stree",
+      "city": "Ibadan",
+      "state": "Oyo State",
+      "zipCode": "897685",
+      "id": 2
     }
   ],
   "PaymentData": [
@@ -30,6 +38,17 @@
       "state": "Ondo state",
       "zipCode": "765872",
       "id": 2
+    },
+    {
+      "cardName": "Ajayi Bimpe",
+      "cardNos": "7434984598230009",
+      "expiry": "884327",
+      "cvv": "384",
+      "streetAddr": "Orelope",
+      "city": "Akure",
+      "state": "Oyo State",
+      "zipCode": "57843",
+      "id": 3
     }
   ]
 }
