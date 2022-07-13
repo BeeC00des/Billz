@@ -9,7 +9,7 @@
 .profile{
     height: 100px;
     width: 100px;
-    margin: 40px;
+    margin: 25px 40px ;
 }
 
 .nav-menu{
@@ -58,6 +58,44 @@
 
         } 
      }
+}
+.support-box{
+    border-bottom-left-radius:5px ;
+    border-top-left-radius:5px;
+    margin:10px 0px 0px 35px;
+    padding: 10px 5px;
+    background-color:rgba(0, 0, 0, 0.26);
+    display: flex;
+    .ques-box{
+        width:50px;
+        height:50px;
+        border-radius: 100%;
+        border: 1px solid #fff;
+        margin:10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            color:#fff;
+            font-size: 18px;
+            font-weight:bold;
+        }
+        
+    }
+    .text-box{
+        padding:10px;
+        p, span{
+            color:#fff;
+            font-size: 15px;
+            font-weight: 500; 
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+        span{
+            font-weight: 400;
+        }
+    }
 }
 
 .faUser{
